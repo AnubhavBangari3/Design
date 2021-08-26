@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#000000;
+    height: 100%;
+    width: 100%;
+}
+header h6{
+    color:white;
+    padding:10px 0 10px 68px;
+    font-weight: 600;
+}
+.left{
+    
+    background-image:url("test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+}
+.right{
+    background-color:#343434;
+    margin-left: 10px;
+}
+
+.calender{
+    margin-top:40px;
+    float:right;
+    width:auto;
+    height:auto;
+    background-color:#343434;
+    flex-wrap: wrap;
+}
+.top{
+    width:100%;
+    height:15%;
+    display:flex;
+    
+}
+.top h6{
+    color:white; 
+    font-weight: 600;
+}
+.middle{
+    width:100%;
+    height:80px;
+    background-color:black;
+}
+.meeting{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.bottom{
+    width:100%;
+    height:60%;
+}
+.month{
+    display:flex;
+}
+.month h6{
+    color:gray;
+    
+}
+.month span i{
+    color:white;
+    
+}
+/* .row .col{
+    display:flex;
+    justify-content:center;
+} */
+
+.row .col span{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    border:double white;
+    border-radius:10%;
+    
+}
+.meeting{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    height:auto;
+}
+.meeting h6{
+    color:white; 
+    font-weight: 600;
+    padding-top:20px;
+}
+thead > tr >th{
+    color:white; 
+}
+tbody > tr >td{
+    color:white; 
+    border-radius: 6px;
+  border: 1px solid white;
+    
+}
+.day{
+    padding:15px 10px 0px 10px;
+}
+.item{
+    display:flex;justify-content:space-evenly;
+}
+.item span{
+    margin-left:10px;
+    background-color:#28282B;
+}
